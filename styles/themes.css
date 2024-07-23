@@ -7,6 +7,9 @@
     --block-background-color: #fff;
     --button-accent:#fff;
     --like-sparks-color: #ff0000;
+    --font-weight-main: 400;
+    --font-weight-content: 400;
+    --font-weight-title: 700;
 }
 
 :root.theme-dark {
@@ -18,6 +21,9 @@
     --block-background-color: #000;
     --button-accent: #00cc14;
     --like-sparks-color: #ff0000;
+    --font-weight-main: 400;
+    --font-weight-content: 465;
+    --font-weight-title: 785;
 }
 
 @media (prefers-color-sheme: light) {
@@ -30,5 +36,8 @@
       --block-background-color: #fff;
       --button-accent:#fff;
       --like-sparks-color: #ff0000;
+      --font-weight-main: 400;
+      --font-weight-content: 400;
+      --font-weight-title: 700;
     }
 }
